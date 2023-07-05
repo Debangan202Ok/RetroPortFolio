@@ -14,7 +14,7 @@ export default function Popup({eff}) {
                 </div>
             </div>
             <div className="flex text-justify font-third justify-center">
-                <p className="border-2 w-[95%] my-4 p-2">For getting better user experience i recommand you to access this via laptop or desktop</p>
+                <p className="border-2 w-[95%] my-4 p-2">For getting better user experience i recommend you to access this via laptop or desktop</p>
             </div>
             <div className="flex justify-end text-center font-secondary bg-black text-white py-1 pr-2">
                 <span className="block px-4 border-2 rounded-md" onClick={eff}>OKAY</span>
