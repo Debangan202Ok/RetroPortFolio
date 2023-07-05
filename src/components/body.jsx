@@ -1,6 +1,8 @@
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa'
 import { AiOutlineAim } from 'react-icons/ai'
 import { ImGoogle2 } from 'react-icons/im'
+import resume from '../../public/images/resume.jpg'
+import showProc from '../../public/images/showproc.jpg'
 
 export default function Body() {
   const clickLink1 = () => {
@@ -41,7 +43,11 @@ export default function Body() {
                   <p className="text-bold text-[0.5rem] sm:text-[1rem] md:text-[1.5rem] font-secondary">WELCOME TO 2nd <span className="underline">GENERATION</span></p>
                 </div>
                 <div id="img" className="">
+<<<<<<< HEAD
                   <img src={"../../images/showproc.jpg}" alt="" />
+=======
+                  <img src={showProc} alt="" />
+>>>>>>> cf8b1d6 (image source bug fixed)
                 </div>
                 <div className='text-center font-bold font-secondary'>
                   <p>PROJECTS</p>
@@ -64,7 +70,11 @@ export default function Body() {
               <div className='flex flex-col items-center'>
                 <p className="uppercase font-bold font-secondary tracking-widest text-center underline">FIRST THING COMES FIRST...</p>
                 <div className="w-[60vw] lg:w-[30vw]">
+<<<<<<< HEAD
                   <img src={"../../images/resume.jpg"} alt="" />
+=======
+                  <img src={resume} alt="Images" />
+>>>>>>> cf8b1d6 (image source bug fixed)
                 </div>
               </div>
               <div className="flex flex-col text-center font-bold font-secondary">

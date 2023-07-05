@@ -1,3 +1,5 @@
+import ashoka from "../../public/images/ashokstatue.png";
+import r from "../../public/images/grayreact.png";
 
 export default function Heading() {
   return (
@@ -13,11 +15,11 @@ export default function Heading() {
             {/* section2 */}
           <div className="flex items-center justify-between w-full">
             <div className="w-[40px] h-fit none">
-              <img src="../../images/grayreact.png" alt="" />
+              <img src={r} alt="" />
             </div>
             <h1 className="font-primary text-[1rem] sm:text-[1.5rem] md:text-[3rem]">KNOW ME?</h1>
             <div className="w-[30px] h-fit">
-              <img src="../../images/ashokstatue.png" alt="" />
+              <img src={ashoka} alt="" />
             </div>
           </div>
           {/* section3 */}
