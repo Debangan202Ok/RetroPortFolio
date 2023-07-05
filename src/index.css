@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'head';
+    src: url("./fonts/MagicRetro.ttf");
+}
+@font-face {
+    font-family: 'subHead';
+    src: url('./fonts/Freshman.ttf');
+}
+@font-face {
+    font-family: "ret";
+    src: url("./fonts/oldpape.ttf");
+}
+*{
+    cursor: pointer;
+}
