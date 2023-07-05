@@ -41,7 +41,7 @@ export default function Body() {
                   <p className="text-bold text-[0.5rem] sm:text-[1rem] md:text-[1.5rem] font-secondary">WELCOME TO 2nd <span className="underline">GENERATION</span></p>
                 </div>
                 <div id="img" className="">
-                  <img src="./images/showproc.jpg" alt="" />
+                  <img src="../images/showproc.jpg" alt="" />
                 </div>
                 <div className='text-center font-bold font-secondary'>
                   <p>PROJECTS</p>
@@ -64,7 +64,7 @@ export default function Body() {
               <div className='flex flex-col items-center'>
                 <p className="uppercase font-bold font-secondary tracking-widest text-center underline">FIRST THING COMES FIRST...</p>
                 <div className="w-[60vw] lg:w-[30vw]">
-                  <img src="./images/resume.jpg" alt="" />
+                  <img src="../images/resume.jpg" alt="" />
                 </div>
               </div>
               <div className="flex flex-col text-center font-bold font-secondary">
