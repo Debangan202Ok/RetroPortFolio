@@ -13,11 +13,11 @@ export default function Heading() {
             {/* section2 */}
           <div className="flex items-center justify-between w-full">
             <div className="w-[40px] h-fit none">
-              <img src="./pubic/images/grayreact.png" alt="" />
+              <img src="../../images/grayreact.png" alt="" />
             </div>
             <h1 className="font-primary text-[1rem] sm:text-[1.5rem] md:text-[3rem]">KNOW ME?</h1>
             <div className="w-[30px] h-fit">
-              <img src="./pubic/images/ashokstatue.png" alt="" />
+              <img src="../../images/ashokstatue.png" alt="" />
             </div>
           </div>
           {/* section3 */}
